@@ -14,7 +14,7 @@ class FileNotFoundError(Exception):
         print("%s does not exist" % data)
 
 
-# Implement this function to read data into an appropriate data structure.
+# Implementing this function to read data into an appropriate data structure.
 def build_graph(path):
     dict = {}
     with open(path) as f:
@@ -33,7 +33,7 @@ def build_graph(path):
     return dict
 
 
-# Implement this function to perform uniform cost search on the graph.
+# Implementing this function to perform uniform cost search on the graph.
 def uniform_cost_search(graph, start, end):
     visited = []
 
@@ -94,7 +94,7 @@ def take_data():
     return data
 
 
-# Implement main to call functions with appropriate try-except blocks
+# Implementing main to call functions with appropriate try-except blocks
 if __name__ == "__main__":
     # take_data()
     graph = build_graph(take_data())
