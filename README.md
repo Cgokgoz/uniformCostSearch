@@ -7,8 +7,10 @@ nodes are checked starting from the root node, and the least costly path is sele
 paths of all neighboring nodes encountered until the target node is reached is calculated and the path
 with the lowest cost is selected. A uniform-cost search algorithm is implemented by the priority
 queue, it gives maximum priority to the lowest cumulative cost. [2]
+
 Advantages :
 • UCS algorithm guaranteed to find the least-cost solution. (Ensures optimal)
+
 Disadvantages :
 • When searching in Ucs, the number of steps is ignored, only low cost is taken into
 account.This can lead the algorithm into an infinite loop
